@@ -1,26 +1,16 @@
-# Kelompok-8-Pem-Mobile
+# myfirst_flutter_project
 
-import 'package:flutter/material.dart';
+A new Flutter project.
 
-void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            'Kelompok 8',
-            style: TextStyle(color: Colors.white),
-          ),
-          backgroundColor: Colors.blueAccent,
-          centerTitle: true,
-        ),
-        body: Center(
-          child: Image(
-            image: AssetImage('image/Robot.png'),
-          ),
-        ),
-        backgroundColor: Colors.white,
-      ),
-    ),
-  );
-}
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
